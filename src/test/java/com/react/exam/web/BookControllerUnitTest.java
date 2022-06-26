@@ -99,7 +99,7 @@ public class BookControllerUnitTest {
     }
 
     @Test
-    public Book findByIdTest() throws Exception {
+    public void findByIdTest() throws Exception {
         //given
         Long id = 1L;
         when(bookService.findById(id)).thenReturn(new Book(1L, "자바 공부하기", "쌀"));

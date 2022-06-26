@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 
 //기능정의 + 트랜젝션관리
 @RequiredArgsConstructor //final붙은 필드명의 get,set생성하여 DI해줌
